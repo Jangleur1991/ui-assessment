@@ -1,0 +1,223 @@
+.AccountOverview {
+  background-color: lightgray;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 50px 50px;
+}
+
+.account-overview {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #F0F0F0;
+	display: grid;
+	grid-template-rows: 30% 60%;
+	padding: 25px;
+}
+
+.account-overview-content {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-bottom: 25px;
+}
+
+.account-overview-heading {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.support-contact-content {
+	display: flex;
+	margin-top: -10px;
+}
+
+.support-button {
+	width: 40px;
+	height: 40px;
+}
+
+.support-btn {
+	padding: 10px;
+	font-size: 14px;
+	border: none;
+	background-color: #ffd800;
+	font-weight: bold;
+	border-radius: 5px;
+	width: 100%;
+	cursor: pointer;
+}
+
+.support-contact-data {
+      font-size: 12px;
+      width: 100%;
+      position: relative;
+}
+
+.support-contact-content {
+    display: flex;
+}
+
+.contact-mail-phone {
+      position: absolute;
+      top: 2px;
+      left: 8px;
+      display: flex;
+}
+
+.fa-envelope {
+       margin-right: 5px;
+}
+
+.support-headline {
+     font-weight: bold;
+     position: absolute;
+     bottom: 15px;
+     left: 8px;
+}
+
+.email {
+     white-space: nowrap;
+}
+
+.sales-overview {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.sales-absolut-numbers {
+    width: 100%;
+	margin: 0 auto;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.sales-percentages {
+	width: 100%;
+	background-color: white;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	border-radius: 5px;
+}
+
+.sales-percentage {
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+.fa-upload {
+	color: #00BFFF;
+	margin-right: 5px;
+	margin-left: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+       .account-overview-heading {
+               font-size: 14px;
+       }
+       .support-contact {
+                font-size: 12px;
+       }
+
+       .support-contact-data {
+                font-size: 9px;
+       }
+
+       .sales-absolut-numbers {
+                font-size: 12px;
+       }
+
+       .sales-percentages {
+                font-size: 12px;
+       }
+
+       .contact-mail-phone {
+                 display: block;
+       }
+
+       .support-headline {
+               bottom: 20px;
+       }
+
+       .email{
+               margin-bottom: -5px;
+       }
+}
+
+@media screen and (max-width: 734px) {
+       .support-contact {
+              font-size: 10px;
+       }
+}
+
+@media screen and (max-width: 606px) {
+     .account-overview-heading {
+           font-size: 8px;
+     }
+
+     .support-contact {
+           font-size: 7px;
+     }
+
+     .support-contact-data {
+          font-size: 6px;
+     }
+
+     .sales-absolut-numbers {
+          font-size: 9px;
+     }
+
+     .sales-percentages {
+           font-size: 9px;
+     }
+
+     .contact-mail-phone {
+           top: 10px;
+     }
+
+     .support-headline {
+           bottom: 25px;
+     }
+
+     .support-btn{
+          font-size: 10px;
+     }
+}
+
+@media screen and (max-width: 360px) {
+     .account-overview-heading {
+           font-size: 5px;
+     }
+
+     .support-contact {
+           font-size: 6px;
+     }
+
+     .support-contact-data {
+          font-size: 5px;
+     }
+
+     .sales-absolut-numbers {
+          font-size: 9px;
+     }
+
+     .sales-percentages {
+           font-size: 9px;
+     }
+
+     .contact-mail-phone {
+           top: 10px;
+     }
+
+     .support-headline {
+           bottom: 25px;
+     }
+
+     .support-btn{
+          font-size: 10px;
+     }
+}
+
